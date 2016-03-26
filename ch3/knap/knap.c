@@ -32,7 +32,7 @@ int init(int count, char *filename, int *w, int *v) {
 }
 
 void usage() {
-	printf("Usage:./knap filename\n");
+	printf("Usage:./knap -f filename -m total_weight -n count\n");
 }
 
 int knap(int m, int n, int *w, int *v) {
