@@ -54,9 +54,10 @@ int knap(int m, int n, int *w, int *v) {
 
 int main(int argc, char *argv[]){
 	char ch;
-	char filename[256];
+	char filename[256] = "";
 	int m,n,i,j;
 	//operate the params
+    m = n = 0;
 	int opt, opt_index = 0;
     while((ch = getopt(argc, argv, "n:m:f:")) != EOF) {
         switch(ch) {
